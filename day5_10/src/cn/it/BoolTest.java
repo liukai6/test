@@ -1,0 +1,42 @@
+package cn.it;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import org.junit.Test;
+/*测试我们创建的连接池
+ * 
+ */
+class DemoBool{
+	
+}
+public class BoolTest {
+	@Test
+	public  void Test1() throws Exception {
+		
+		//首先我们要创建连接池对象
+		DemoBool db=new DemoBool();
+		System.out.println(db);
+		//获得连接对象
+//		Connection conn = db.getConn();
+//		//通过连接对象获得操作对象
+//		PreparedStatement stat = conn.prepareStatement("select * from t");
+//		//通过操作对象获得结果集对象
+//		ResultSet re = stat.executeQuery();
+//		//循环遍历出结果
+//		while(re.next()){
+//			String string = re.getString(2);
+//			int int1 = re.getInt(1);
+//			String string2 = re.getString(3);
+//			//打印
+//			System.out.println(int1+"\t"+string+"\t"+string2);
+//			
+//		}
+//		//返还对象
+//		db.Return(conn);
+//		//关闭资源
+//		Demo.Close(null, stat, re);
+		
+}
+}

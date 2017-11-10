@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;valueOf&apos; from expression &apos;String.valueOf(n)&apos;&#x0D;&#x0A;- Original project: &apos;day4_19&apos;&#x0D;&#x0A;- Variable name: &apos;valueOf&apos;&#x0D;&#x0A;- Destination method: &apos;itbool01.Demo.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;String.valueOf(n)&apos;" description="Extract local variable &apos;valueOf&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;itbool01{Demo.java" name="valueOf" replace="false" selection="263 17" stamp="1492595459543" version="1.0"/>
+</session>

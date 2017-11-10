@@ -1,0 +1,39 @@
+package cn.com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import org.junit.Test;
+
+public class Demo1 {
+
+	@Test
+	public void SeDemo() throws Exception{
+		
+		//注册驱动
+		Class.forName("com.mysql.jdbc.Driver");
+		//获得数据库连接对象
+		Connection conn = DriverManager.getConnection("jdbc:mysql:///demo", "root", "root");
+		//通过数据库连接对象获取操作对象
+		PreparedStatement stat= conn.prepareStatement("select *from t");
+		//通过操作对象获取结果集对象
+		ResultSet re = stat.executeQuery();
+		//循环遍历出我们需要的数据
+		while(re.next()){
+			int re1 = re.getInt(1);
+			String re2 = re.getString(2);
+			String re3= re.getString(3);
+		
+			System.out.println(re1+"\t"+re2+"\t"+re3);
+
+		}
+		//关闭资源
+		re.close();
+		stat.close();
+		conn.close();
+		
+		
+	}
+}

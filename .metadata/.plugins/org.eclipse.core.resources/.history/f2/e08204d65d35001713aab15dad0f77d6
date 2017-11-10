@@ -1,0 +1,12 @@
+package com;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		//明白装饰者意义在不更改本来对象的情况下而可以去修饰他,让他有更多的功能
+		Decorate t=new Decorate();
+		t.Method();
+		
+	}
+
+}

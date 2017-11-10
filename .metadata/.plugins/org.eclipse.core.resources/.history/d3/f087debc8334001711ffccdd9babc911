@@ -1,0 +1,42 @@
+package cn.com;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Driver;
+
+public class Demo {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		//注册驱动
+		Class.forName("com.mysql.jdbc.Driver");
+		
+		//获得连接对象
+		Connection conn=DriverManager.getConnection("jdbc:mysql:///demo", "root", "root");
+		
+		//数据操作的字符串
+		String sql="delete from t where id=?";
+		//获得数据库操作对象
+		PreparedStatement prp = conn.prepareStatement(sql);
+		
+//		通过方法将值传递进去
+		prp.setInt(1, 2);
+		
+		//执行
+		int up = prp.executeUpdate();
+		
+		//执行方法看是否更改成功
+		if(up>0){
+			System.out.println("删除成功");
+		}else{
+			System.out.println("删除失败");
+		}
+		//释放资源
+		prp.close();
+		conn.close();
+		
+	}
+}

@@ -1,0 +1,4 @@
+1492334165677	Extract local variable 'listFiles'
+1492337419075	Change method 'main'
+1492337565824	Extract method 'copy'
+1492350244712	Extract method 'chang'

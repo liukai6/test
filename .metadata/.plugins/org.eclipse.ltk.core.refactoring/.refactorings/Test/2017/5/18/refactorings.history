@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void getMath(int [] arr)&apos; from &apos;demo.Demo2.main()&apos; to &apos;demo.Demo2&apos;&#x0D;&#x0A;- Original project: &apos;Test&apos;&#x0D;&#x0A;- Method name: &apos;getMath&apos;&#x0D;&#x0A;- Destination type: &apos;demo.Demo2&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;getMath&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;demo{Demo2.java" name="getMath" replace="false" selection="203 17" stamp="1493740540112" version="1.0" visibility="1"/>
+</session>

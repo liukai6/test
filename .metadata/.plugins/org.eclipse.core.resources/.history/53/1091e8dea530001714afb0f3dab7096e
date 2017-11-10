@@ -1,0 +1,4 @@
+print(45678+0x12df)
+print('Learn Python In imooc')
+print(100<99)
+print(0xff==255)

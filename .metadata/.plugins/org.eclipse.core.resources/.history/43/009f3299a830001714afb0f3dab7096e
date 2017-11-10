@@ -1,0 +1,11 @@
+
+print(45678+0x12df)
+print('Learn Python In imooc')
+print(100<99)
+print(0xff==255)
+print('hello python')
+print('hello','python')
+x1 = 1
+d = 3
+n = 100
+x100 =99*3+1

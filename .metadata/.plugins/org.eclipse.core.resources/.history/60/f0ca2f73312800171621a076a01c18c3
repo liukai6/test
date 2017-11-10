@@ -1,0 +1,13 @@
+package test;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		//定义俩个float类型的数值进行比较
+		
+		float a=326556462f;
+		float b=a+1;
+		System.out.println(a==b);
+	}
+
+}

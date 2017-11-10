@@ -1,0 +1,8 @@
+package cn.com;
+
+public class Test {
+	
+	@Test
+	public void SeTest(){}
+
+}

@@ -1,0 +1,48 @@
+package com.it;
+
+
+
+
+public class DesDemo {
+	//是一个测试类
+	public static void main(String[] args) {
+		//准备工作已经做好,变魔术的时候到了
+		Tea rt=new RedTea();
+		Tea gt=new GreenTea(rt);
+		gt.method();
+		
+	}
+}
+//创建一个共同实现的接口Tea
+interface Tea{
+	
+	public void method();
+	
+}
+//创建一个红茶类
+class RedTea implements Tea{
+
+	public void method() {
+		// TODO Auto-generated method stub
+		System.out.println("喝起来.......red");
+	}
+
+}
+//创建一个绿茶
+class GreenTea implements Tea{
+	
+	//我们想让Green喝起来有红茶味道就要用装饰着模式
+	//创建一个私有对象
+	private Tea rt;
+	public GreenTea(){}
+	//修饰绿茶的构造方法
+	public GreenTea(Tea rt){
+		this.rt=rt;
+	}
+
+	public void method() {
+		// TODO Auto-generated method stub
+		System.out.println("喝起来......green");
+	}
+	
+}

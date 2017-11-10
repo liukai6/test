@@ -1,0 +1,23 @@
+
+print(45678+0x12df)
+print('Learn Python In imooc')
+print(100<99)
+print(0xff==255)
+print('hello python')
+print('hello','python')
+x1 = 1
+d = 3
+n = 100
+x100 =99*3+1
+print(x100)
+s=((n-1)*3+1)
+print(s)
+c = 'python was started in 1989 by \"Guido\".\npython is free and easy to learn.'
+print (c)
+print(r'''"To be, or not to be": that is the question.\nWhether it's nobler in the mind to suffer.''')
+# -*- coding: utf-8 -*-
+
+print(ur'''"静夜思窗前明月光,"
+"疑是地上霜,"
+"举头望明月,"
+"低头思故乡."''')

@@ -1,0 +1,45 @@
+package cn.it;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+import java.util.List;
+
+/*连接池的创建
+ * 
+ */
+
+public class DemoBool {
+	Connection conn=null;
+	List<Connection> list=new ArrayList<Connection>();
+	//构造方法
+	public DemoBool(){
+		//循环创建出连接对象来
+		for(int i=1;i<=5;i++){
+			//调用方法获得连接对象
+			 conn = Demo.getconn();
+			 //把我们创建的对象放入到list集合中去
+			 list.add(conn);
+		}
+	}
+	//创建一个获得对象的方法
+	public Connection getConn(){
+		//进行判断我们的连接池中是否还有对象
+		if(list.get(0)==null){
+			//如果没有对象我们就再创建5个对象来候选
+			for(int i=1;i<=5;i++){
+				//调用方法获得连接对象
+				 conn = Demo.getconn();
+				 list.add(conn);
+			}
+		}
+		 Connection con = list.remove(0);
+		return con;
+	}
+	//创建一个归还连接对象的方法
+	public void Return(Connection c){
+		
+		list.add(c);
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package com;
+/*
+ * 装饰者模式练习
+ */
+public class Decorate implements Tea {
+	
+	public static void main(String[] args) {
+		
+		//明白装饰者意义在不更改本来对象的情况下而可以去修饰他,让他有更多的功能
+		Tea t=new Decorate();
+		t.Method();
+		
+	}
+	
+	public void Method() {
+		// TODO Auto-generated method stub
+		System.out.println("好喝");
+	}
+
+}
+
+//创建一个Tea接口
+interface Tea{
+	
+	public void Method();
+	
+}
