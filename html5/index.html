@@ -9,8 +9,18 @@
     <div id="container">
         <h1>Let's learn HTML5</h1>
         <p>发挥你的创造力和想象力,来一起踏上HTNL5的学习之路</p>
-        <a href="">邀请你参加</a>
+        <a id="enroll" href="">邀请你参加</a>
     </div>
 
 </body>
+<script>
+    var enroll = document.getElementById('enroll');
+    enroll.onclick = function(e){
+        e.preventDefault();
+        enroll.innerHTML = "报名成功";
+        enroll.style.background = "#27cb8b";
+        enroll.style.borderColor = "#27cb8b";
+    }
+</script>
+
 </html>
