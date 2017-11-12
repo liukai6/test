@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c3b6b1a-cc58-4dbf-81ad-f50c64b1796e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/11-12/border.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/11-12/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5/11-12/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html5/index.html" afterPath="$PROJECT_DIR$/html5/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,36 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="demo.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day4_10/src/itbool/user/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GongNeng.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day4_10/src/itbool/user/dao/GongNeng.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +29,7 @@
       <file leaf-file-name="FileDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day4_12/src/filedemo/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -85,11 +56,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5/11-12/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5/11-12/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="21" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="border.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html5/11-12/border.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="li.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5/11-12/li.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -105,16 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/demo1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -123,8 +124,8 @@
         <option value="Python Script" />
         <option value="Go File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -154,6 +155,10 @@
         <option value="$PROJECT_DIR$/node/demo1.js" />
         <option value="$PROJECT_DIR$/html5/css.css" />
         <option value="$PROJECT_DIR$/html5/index.html" />
+        <option value="$PROJECT_DIR$/html5/11-12/index.html" />
+        <option value="$PROJECT_DIR$/html5/11-12/form.html" />
+        <option value="$PROJECT_DIR$/html5/11-12/border.html" />
+        <option value="$PROJECT_DIR$/html5/11-12/li.html" />
       </list>
     </option>
   </component>
@@ -185,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,12 +203,17 @@
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="html5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="html5" type="462c0819:PsiDirectoryNode" />
+              <item name="11-12" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,6 +495,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1c3b6b1a-cc58-4dbf-81ad-f50c64b1796e" name="Default" comment="" />
@@ -492,12 +506,13 @@
       <option name="presentableId" value="Default" />
       <updated>1507174270815</updated>
       <workItem from="1508591624555" duration="1477000" />
-      <workItem from="1510322602845" duration="4243000" />
+      <workItem from="1510322602845" duration="4416000" />
+      <workItem from="1510462168765" duration="5383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5720000" />
+    <option name="totallyTimeSpent" value="11276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -537,10 +552,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/demo5.py" />
-    <entry file="file://$PROJECT_DIR$/demo/demo6.py" />
-    <entry file="file://$PROJECT_DIR$/demo/demo7.py" />
-    <entry file="file://$PROJECT_DIR$/demo/demo8.py" />
     <entry file="file://$PROJECT_DIR$/demo/demo9.py" />
     <entry file="file://$PROJECT_DIR$/demo/10_6.csv" />
     <entry file="file://$PROJECT_DIR$/demo/demo.py" />
@@ -638,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day4_12/src/filedemo/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -672,6 +683,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/11-12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/11-12/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/11-12/border.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5/11-12/li.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding />
         </state>
       </provider>

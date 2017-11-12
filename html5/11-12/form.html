@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单TEST</title>
+</head>
+<body>
+    <form action=''>
+        <p>
+            <label>姓名:<input type="text" name="username" placeholder="请输入您的名字"></label>
+        </p>
+        <p>
+            <label>电话:<input name="tel" type="tel"></label>
+        </p>
+        <p>
+            <label>邮箱:<input name="email" type="email"></label>
+        </p>
+        <fieldset>
+            <legend for="sex">性别:</legend>
+            <input type="radio" name="sex" value="male" checked>男
+            <input type="radio" name="sex" value="female">女
+        </fieldset>
+        <p>
+            <label for="equipment">请选择仪器:</label>
+            <select name="equipment">
+                <option value="1">分光光度的</option>
+                <option vaule="2">明白</option>
+                <option value="3">不明白</option>
+            </select>
+        </p>
+        <p>
+            <label><input type="checkbox" name="rule">请准守规范</label>
+        </p>
+        <p><button>提交</button></p>
+    </form>
+
+</body>
+</html>
