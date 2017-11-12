@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MOVEDEMO</title>
+    <style type="text/css">
+        body {
+            position: relative;
+
+        }
+        #logo {
+            width: 300px;
+            height: 200px;
+            background: url(1.jpg) center 50% no-repeat;
+            position: absolute;
+            left: 0;
+
+        }
+        #box {
+            width: 300px;
+            height: 200px;
+            background: #27AE60;
+            border-radius: 10px;
+            border: 5px dashed #27AE60;
+            position: absolute;
+            right:0;
+        }
+    </style>
+</head>
+<body>
+    <div id="logo" ></div>
+    <div id="box" ></div>
+</body>
+    <script>
+        window.onload=function(){
+            var logo = document.getElementById('logo');
+            logo.draggable = true;
+            var box =document.getElementById('box');
+            box.ondragover = function(e){
+                e.preventDefault();//去除默认事件
+            }
+            box.ondrop = function(e){
+                box.appendChild(logo);
+            }
+        };
+    </script>
+</html>
