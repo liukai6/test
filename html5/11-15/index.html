@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article</title>
+    <style type="text/css" >
+        html body{
+            background-color: blue;
+        }
+        #title {
+            text-align: center;
+            font-size:60px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 3px;
+            padding: 10px 100px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title" class="white">Article</h1>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            //document.getElementById('title').innerHTML ="jQuery";
+            $('h1').html('Hello,World').css('background-color','#001f3f');
+            $('#title').height('300px');
+            /*$('h1').click(function(){
+                $('h1').hide();
+            });*/
+        /*    $('h1').mouseover(function(){
+                $('h1').hide();
+            });*/
+            $('h1').keydown(function(){
+                $('h1').hide();
+            });
+        });
+    </script>
+</body>
+</html>
